@@ -1,0 +1,361 @@
+html {
+    height: 100%;
+    margin: 0;
+    background-image: url("../Images/Desktop\ -\ 16.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.inline-block {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    
+
+}
+
+.navigation {
+    background-color: #262626;
+    height: 80px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 244px;
+}
+
+.logo {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 202px;
+    top: 25px;
+}
+
+nav {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 100%;
+}
+nav ul {
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 60px;
+    list-style: none;
+    
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 104px;
+    vertical-align: middle;
+
+    filter: drop-shadow(0px 4px 4px rgba(255, 225, 118, 0.34));
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+/* identical to box height */
+
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+/* Text Gradient */
+
+    background: linear-gradient(180deg, #00B0FC 37.29%, rgba(0, 176, 252, 0.4) 50%, #00B0FC 62.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+.heroImg {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+
+    /*display: flex;
+    align-items: flex-end;
+    height: 700px;
+    margin-bottom: 244px;
+    text-overflow: ellipsis;*/
+}
+
+h1 {
+    margin: 0;
+    color: #00B0FC;
+    width: 524px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 141px;
+}
+
+.content{
+    height: 100%;
+    width: 90%;
+    max-width: 10000px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.content p {
+    width: 36%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: white;
+}
+/*.blu {
+    position: relative;
+    width: 210px;
+    left: 50%;
+}*/
+.heroImg button {
+    margin-top: 50px;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    background: linear-gradient(180deg, #00B0FC 37.29%, rgba(0, 176, 252, 0.4) 50%, #00B0FC 62.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /*button inner line*/
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(255, 225, 118, 0.34));
+    border-radius: 7px; 
+    border-color: #FFC700;
+}
+
+.mySkills h1 {
+    width: 100%;
+    margin-bottom: 86px;
+    padding: 0;
+    text-align: center;
+    color: black;
+}
+
+#skillsGrid {
+    margin: 0px 0;
+    display: grid;
+    grid-template-areas:
+    "userResearch userEmpathy qualitativeInterviews"
+}
+
+.skillsDiv img {
+    width: auto;
+    height: 160px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.flexContainer div {
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.flexContainer h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.flexContainer p {
+    margin-left: 13%;
+    margin-right: 13%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.toolsIKnow h2 {
+    width: 100%;
+    margin-top: 102px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+#toolsGrid {
+    margin: 0px;
+    display: grid;
+    grid-template-areas:
+    "tools1 tools2 tools3"
+}
+
+.toolsIKnow h3 {
+    width: 400px;
+    margin: 10px;
+    margin-bottom: 84px;
+    text-align: center;
+}
+
+.myWork {
+    background-color: #262626;
+    height: 898px;
+}
+
+.myWork h1 {
+    width: 100%;
+    margin-bottom: 78px;
+    padding: 0;
+    text-align: center;
+}
+
+#workGrid {
+    margin: 0px 0;
+    display: grid;
+    grid-template-areas:
+    "wildRoute npo chefsy"
+}
+
+.myWork img {
+    width: auto;
+    height: 200px;
+}
+
+.myWork h3 {
+    color: white;
+}
+
+.myWork p {
+    height: 210px;
+    color: white;
+}
+
+.myWork button {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    background: linear-gradient(180deg, #00B0FC 37.29%, rgba(0, 176, 252, 0.4) 50%, #00B0FC 62.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /*button inner line*/
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(255, 225, 118, 0.34));
+    border-radius: 7px;
+    border-color: #FFC700;
+}
+
+footer {
+    background-color: #262626;
+    margin-top: 244px;
+    /*height: 235px;*/
+    padding: 0;
+    display: grid;
+    align-items: center;
+    
+}
+footer ul {
+    display: inline-block;
+}
+#copyright {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #00B0FC;
+}
+/*.footerLogo {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}*/
+@media only screen and (max-width: 800px) {
+    .blu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .heroImg {
+        height: auto;
+        background-color: #262626;
+    }
+
+    .content h1 {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    .content p {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    #skillsGrid {
+        grid-template-areas:
+        "userResearch"
+        "userEmpathy"
+        "qualitativeInterviews"
+        ;
+    }
+    
+    #toolsGrid {
+        grid-template-areas:
+        "tools1" 
+        "tools2" 
+        "tools3"
+        ;
+    }
+
+    #workGrid {
+        grid-template-areas:
+        "wildRoute" 
+        "npo" 
+        "chefsy"
+        ;
+    }
+}
