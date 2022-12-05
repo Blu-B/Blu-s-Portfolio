@@ -9,8 +9,11 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
-
+html, body {
+    height: 100%;
+}
 body {
+    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -159,6 +162,7 @@ h1 {
 
 .mySkills h1 {
     width: 100%;
+    margin-top: 86px;
     margin-bottom: 86px;
     padding: 0;
     text-align: center;
@@ -286,11 +290,20 @@ h1 {
     border-radius: 7px;
     border-color: #FFC700;
 }
-
-footer {
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+/*footer {
     background-color: #262626;
     margin-top: 244px;
-    /*height: 235px;*/
+    height: 150px;
+    width: 100vw;
     padding: 0;
     display: grid;
     align-items: center;
@@ -299,30 +312,31 @@ footer ul {
     display: inline-block;
 }
 #copyright {
-    width: 100%;
     margin: 0 auto;
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
     color: #00B0FC;
 }
-/*.footerLogo {
+/*.footerSocials {
     display: flex;
     position: relative;
     justify-content: flex-end;
 }*/
 @media only screen and (max-width: 800px) {
-    .blu {
-        display: none;
+    html {
+        background: none;
     }
 }
 
 @media only screen and (max-width: 1700px) {
+    html {
+        background: none;
+    }
     .heroImg {
         height: auto;
         background-color: #262626;
     }
-
     .content h1 {
         font-size: 80px;
         margin-bottom: 20px;
@@ -356,5 +370,9 @@ footer ul {
         "npo" 
         "chefsy"
         ;
+        background-color: #262626;
+    }
+    footer {
+        
     }
 }
